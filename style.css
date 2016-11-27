@@ -5,7 +5,6 @@ body{
     font-family: 'Oswald', sans-serif;
     color:#fff;
 }
-button:focus {outline:0;} /* Button outline */
 button{
     width:40vw;
     height:40vw;
@@ -46,6 +45,7 @@ button:active:after {
     opacity: 1;
     transition: 0s;
 }
+button:focus { outline:0; }
 .header{
     font-size:8vw;
     width:100%;
@@ -54,7 +54,6 @@ button:active:after {
     box-sizing:border-box;
     background-color:#000;
     border-bottom:1.7vw solid #00ffff;
-    border-top:1.7vw solid #00ffff;
 }
 .footer{
     position:fixed;
