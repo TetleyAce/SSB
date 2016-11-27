@@ -5,6 +5,7 @@ body{
     font-family: 'Oswald', sans-serif;
     color:#fff;
 }
+button:focus {outline:0;} /* Button outline */
 button{
     width:40vw;
     height:40vw;
