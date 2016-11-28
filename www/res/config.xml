@@ -8,6 +8,7 @@
 <!-- versionCode is optional and Android only -->
 
   <name>Student Soundboard</name>
+  <access origin="*" />
 
   <description>
       A simple soundboard for Twynham Sixth Form.
